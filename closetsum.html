@@ -1,0 +1,20 @@
+<html>
+<h2>Closet sum of array</h2>
+
+<script>
+let arr = [10, 22, 28, 29, 30, 40];
+let x=80;
+for(let i=0; i<arr.length; i++){
+for(let j=i; j<arr.length; j++){
+
+sum=arr[i+1]+arr[j];
+sum1=sum+0;
+
+if(sum>x-10&&sum<x+10){
+window.alert(arr[i] +" "+arr[j]);
+}
+
+}
+}
+ </script>
+</html>
